@@ -1,0 +1,118 @@
+16:43:02.266 [main] INFO  api.listeners.TestListener - Started!!!loginTest
+16:43:07.712 [main] INFO  api.listeners.TestListener - Passed!!!loginTest
+16:43:07.713 [main] INFO  api.listeners.TestListener - Description!!!verify the login api is working ...........
+16:43:07.718 [main] INFO  api.listeners.TestListener - Test suite completed!!!
+17:12:03.787 [main] INFO  api.listeners.TestListener - Started!!!loginTest
+17:12:05.437 [main] INFO  api.filters.LoggingFilter - BASE URI: https://swift.techwithjatin.com/
+17:12:05.438 [main] INFO  api.filters.LoggingFilter - Request Headers: Accept=*/*
+Content-Type=application/json
+17:12:05.438 [main] INFO  api.filters.LoggingFilter - Request Payload: {"username":"surbhic","password":"123456"}
+17:12:07.325 [main] INFO  api.filters.LoggingFilter - Response code: 200
+17:12:07.326 [main] INFO  api.filters.LoggingFilter - Response Headers: Date=Sun, 23 Mar 2025 11:42:06 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+17:12:07.327 [main] INFO  api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@5529ff44
+17:12:07.415 [main] INFO  api.listeners.TestListener - Passed!!!loginTest
+17:12:07.415 [main] INFO  api.listeners.TestListener - Description!!!verify the login api is working ...........
+17:12:07.417 [main] INFO  api.listeners.TestListener - Test suite completed!!!
+17:13:24.657 [main] INFO  api.listeners.TestListener - Started!!!loginTest
+17:13:25.855 [main] INFO  api.filters.LoggingFilter - BASE URI: https://swift.techwithjatin.com/
+17:13:25.855 [main] INFO  api.filters.LoggingFilter - Request Headers: Accept=*/*
+Content-Type=application/json
+17:13:25.855 [main] INFO  api.filters.LoggingFilter - Request Payload: {"username":"surbhic","password":"123456"}
+17:13:27.345 [main] INFO  api.filters.LoggingFilter - Response code: 200
+17:13:27.346 [main] INFO  api.filters.LoggingFilter - Response Headers: Date=Sun, 23 Mar 2025 11:43:26 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+17:13:27.415 [main] INFO  api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXJiaGljIiwiaWF0IjoxNzQyNzMwMjA2LCJleHAiOjE3NDI3MzM4MDZ9.X_VdgukXjp9FilSXL2ij_vsr9TWa9Vm3C1re3Nz7dRE",
+    "type": "Bearer",
+    "id": 90,
+    "username": "surbhic",
+    "email": "surbhic2000@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:13:27.505 [main] INFO  api.listeners.TestListener - Passed!!!loginTest
+17:13:27.506 [main] INFO  api.listeners.TestListener - Description!!!verify the login api is working ...........
+17:13:27.509 [main] INFO  api.listeners.TestListener - Test suite completed!!!
+17:35:45.963 [main] INFO  api.listeners.TestListener - Started!!!loginTest
+17:35:47.445 [main] INFO  api.filters.LoggingFilter - BASE URI: https://swift.techwithjatin.com/
+17:35:47.445 [main] INFO  api.filters.LoggingFilter - Request Headers: Accept=*/*
+Content-Type=application/json
+17:35:47.447 [main] INFO  api.filters.LoggingFilter - Request Payload: {"username":"surbhic","password":"123456"}
+17:35:49.360 [main] INFO  api.filters.LoggingFilter - Response code: 200
+17:35:49.362 [main] INFO  api.filters.LoggingFilter - Response Headers: Date=Sun, 23 Mar 2025 12:05:48 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+17:35:49.397 [main] INFO  api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXJiaGljIiwiaWF0IjoxNzQyNzMxNTQ4LCJleHAiOjE3NDI3MzUxNDh9.QQBE1VV7ZeSd71pjwhFxVrYGFSUbDjQj613ap6JvwZE",
+    "type": "Bearer",
+    "id": 90,
+    "username": "surbhic",
+    "email": "surbhic2000@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:35:49.444 [main] INFO  api.listeners.TestListener - Passed!!!loginTest
+17:35:49.445 [main] INFO  api.listeners.TestListener - Description!!!verify the login api is working ...........
+17:35:49.472 [main] INFO  api.listeners.TestListener - Test suite completed!!!
